@@ -1,0 +1,6 @@
+ClassID,ClassName,CRN,timestart,timeend,Days,Semesters,Teacher,Location,seatsavailable,classesrequired,isUPPLneeded
+ENC1101,Composition I,52487,9:00 AM,10:30 AM,MW,"F, S, Su",Ms. Doe,CHE 106,20,N/A,F
+MAC2281,Calculus I ,16549,2:30 PM,4:00 PM,TR,"F, S, Su",Mr. John,ENG 116,7,N/A,F
+MAC2282,Calculus II,44892,10:00 AM,12:00 PM,F,"F, S, Su",Mrs. Joeson,ENG 117,19,MAC2281,F
+COP2510,Prog Concepts,95954,9:00 AM,10:00 AM,MW,"F, S, Su",Dr. Fulano,ENG 118,13,MAC2282,T
+COP3514,Prog Desings,47856,5:00 PM,6:00 PM,TR,"F, S, Su",Dr. Plates,ENG 119,10,COP2510,T

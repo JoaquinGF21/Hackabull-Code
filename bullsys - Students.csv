@@ -1,0 +1,13 @@
+FirstName,LastName,Email,Password,CreditHours,ClassesTaken,ClassesInProgress,UpperLevel
+Emma,Smith,emma.smith123@usf.edu,eSm#1234,20,"ENC1101, MAC2281",MAC2282,F
+Liam,Patel,liam.patel56@usf.edu,lPa$4567,75,"ENC1101, MAC2281, MAC2282",COP2510,T
+Olivia,Rodriguez,olivia.rodriguez89@usf.edu,oRo#7890,20,"ENC1101, MAC2281",MAC2282,F
+Ethan,Kim,ethan.kim234@usf.edu,eKi$2345,0,N/A,"ENC1101, MAC2281",F
+Ava,Nguyen,ava.nguyen77@usf.edu,aNg@7788,100,"ENC1101, MAC2281, MAC2282, COP2510, COP3514",N/A,T
+Noah,Hernandez,noah.hernandez99@usf.edu,nHe#9900,50,"ENC1101, MAC2281, MAC2282",COP2510,F
+Charlotte,Lee,charlotte.lee21@usf.edu,cLe$2112,26,"ENC1101, MAC2281",MAC2282,F
+Oliver,Gonzalez,oliver.gonzalez67@usf.edu,oGo#6767,35,"ENC1101, MAC2281",MAC2282,F
+Mia,Singh,mia.singh32@usf.edu,mSi$3232,87,"ENC1101, MAC2281, MAC2282, COP2510",COP3514,T
+Elijah,Kim,elijah.kim87@usf.edu,eKi#8787,66,"ENC1101, MAC2281, MAC2282",COP2510,T
+Adam,Belkhadir,adam.bel57@usf.edu,funny,52,"ENC1101, MAC2281, MAC2282",COP2510,T
+richard,zarazua,richard.zarazua@usf.edu,password,3,N/A,"ENC1101, MAC2281",F
