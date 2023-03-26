@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bull Chart</title>
+  <!-- <script  src="./bullsys.js"></script> -->
+  <nav class="nav-checkout">
+    <div class="checkout">
+      <h2>Total class:</h2>
+      <h3>Total Credit:</h3>
+    </div>
+  </nav>
+</head>
+<body>
+  <header>  
+    <div class="header-section">
+      <table border="1">z
+        <caption>Flowchart for USF BS in Computer Science 2022-2023 (120 hours)</caption>
+        <tr>
+          <td colspan="3">Lower Division Status</td>
+          <td colspan="6">Upper Division States</td>
+        </tr>
+        <tr>
+          <td colspan="2">Year 1</td>
+          <td colspan="2">Year 2</td>
+          <td>Summer</td>
+          <td colspan="2">Year 3</td>
+          <td colspan="2">Year 4</td>
+
+        </tr>
+        <tr>
+          <td>
+            Fall 13 hrs
+            <button id="starter">Start!</button>
+          </td>
+          <td>Spring 14 hrs</td>
+          <td>Fall 14 hrs</td>
+          <td>Spring 13 hrs</td>
+          <td>9 hrs</td>
+          <td>Fall 15 hrs
+            <button id="thirdyear1">Start!</button>
+          </td>
+          <td>Spring 15 hrs
+            <button id="thirdyear2">Start!</button>
+          </td>
+          <td>Fall 15 hrs
+            <button id="fourthyear">Start!</button>
+          </td>
+          <td>Spring 12 hrs
+          </td>
+        </tr>
+      </table>
+    </div>
+  </header>
+  <main>
+    <div class="grid-container">
+      <div class="grid-item hidden-item">
+      </div>
+      <div class="grid-item requirement" id="natural_science">
+        <p>Natural Science</p>
+      </div>
+      <div class="grid-item required first-year" id="mac2281" >
+        <p><abbr title="Calculus 1">MAC 2281</abbr> or MAC 2311</p>
+      </div>
+      <div class="grid-item required" id="egn3000"><p>EGN 3000</p></div>
+      <div class="grid-item not-required" id="egn3000l"><p>EGN 3000L</p></div>
+      <div class="grid-item required" id="enc1101"><p>ENC 1101</p></div>
+      <div class="grid-item hidden-item">4</div>
+      <div class="grid-item locked required" id="phy2048l"><p>PHY 2048L</p></div>
+      <div class="grid-item locked required" id="phy2048"><p>PHY 2048</p></div>
+      <div class="grid-item locked required" id="mac2282">
+        <p>MAC 2282 or MAC 2312</p>
+      </div>
+      <div class="grid-item locked required major-class" id="cop2510">COP 2510</div>
+      <div class="grid-item hidden-item">4</div>
+      <div class="grid-item locked required">ENC 1102</div>
+      <div class="grid-item hidden-item">Apply for Upper Division</div>
+      <div class="grid-item locked required" id="phy2049l"><p>PHY 2049L</p></div>
+      <div class="grid-item locked required" id="phy2049"><p>PHY 2049</p></div>
+      <div class="grid-item locked required" id="mac2283"><p>MAC 2283 or MAC 2313</p></div>
+      <div class="grid-item locked required major-class" id="cda3103"><p>CDA 3103</p></div>
+      <div class="grid-item locked required major-class" id="cop3514"><p>COP 3514</p></div>
+      <div class="grid-item locked mile-stones">Apply for Upper Divison</div>
+      <div class="grid-item hidden-item">4</div>
+      <div class="grid-item hidden-item">4</div>
+      <div class="grid-item locked"><p>CDA 3201L</p></div>
+      <div class="grid-item locked"><p>CDA 3201</p></div>
+      <div class="grid-item locked"><p>COP 4530</p></div>
+      <div class="grid-item hidden-item ">4</div>
+      <div class="grid-item locked" id="cot3100"><p>COT 3100</p></div>
+      <div class="grid-item locked not-required">GenEd Humanities</div>
+      <div class="grid-item locked not-required" id="egn3433"><p>EGN 3433</p></div>
+      <div class="grid-item hidden-item">4</div>
+      <div class="grid-item hidden-item">4</div>
+      <div class="grid-item hidden-item">4</div>
+      <div class="grid-item hidden-item">4</div>
+      <div class="grid-item locked"><p>Natural Science Elective</p></div>
+      <div class="grid-item locked not-required">GenEd Social Science</div>
+      <div class="grid-item locked" id="egn4450"><p>EGN 4450</p></div>
+      <div class="grid-item locked"><p>CSE Elective</p></div>
+      <div class="grid-item locked"><p>CDA 4205</p></div>
+      <div class="grid-item locked"><p>CDA 4205L</p></div>
+      <div class="grid-item hidden-item">4</div>
+      <div class="grid-item locked"><p>CSE Software Elective</p></div>
+      <div class="grid-item locked not-required"><p>Human & Cultural Diversity Elective</p></div>
+      <div class="grid-item hidden-item"></div>
+      <div class="grid-item hidden-item">4</div>
+      <div class="grid-item locked"><p>CSE Elective</p></div>
+      <div class="grid-item locked"><p>CSE Software Elective</p></div>
+      <div class="grid-item locked"><p>COT 4400</p></div>
+      <div class="grid-item locked"><p>ENC 3246</p></div>
+      <div class="grid-item locked"><p>General Elective</p></div>
+      <div class="grid-item locked mile-stones"><p>Apply for Graduation</p></div>
+      <div class="grid-item locked"><p>CSE Elective</p></div>
+      <div class="grid-item locked"><p>CSE Theory Elective</p></div>
+      <div class="grid-item locked"><p>CNT 4419</p></div>
+      <div class="grid-item locked"><p>COP 4600</p></div>
+      <div class="grid-item hidden-item"></div>  
+      <div class="grid-item locked"><p>General Elective</p></div>  
+      <div class="grid-item hidden-item"></div> 
+      <div class="grid-item locked"><p>CSE Elective</p></div> 
+      <div class="grid-item hidden-item"></div> 
+      <div class="grid-item locked not-required"><p>CEN 4020</p></div> 
+      <div class="grid-item locked not-required"><p>CIS 4250</p></div> 
+      <div class="grid-item hidden-item"></div>
+      <div class="grid-item locked "><p>General Elective</p></div>  
+    </div>
+    <input type="file" id="student" accept=".csv">
+    <input type="file" id="classes" accept=".csv">
+    <button id="uploadconfirmstudent">Upload Student</button>
+    <button id="uploadconfirmclasses">Upload Classes</button>
+    <button id="check">Check Classes</button>
+
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js">
+    </script>
+
+      <script src="./bullsys.js">
+    </script>
+  </main>
+</body>
+</html>
